@@ -1,0 +1,9 @@
+color-pluma A ;
+while not borde do {
+	bajar-pluma ;
+	direccion-pluma N ;
+	avanzar 1;
+	levantar-pluma ;
+	direccion-pluma E ;
+	avanzar 1
+}

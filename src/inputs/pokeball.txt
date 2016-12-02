@@ -1,0 +1,228 @@
+avanzar 22;
+direccion-pluma N;
+avanzar 10;
+color-pluma Ne;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma E; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma E; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma E; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma E; avanzar 2; direccion-pluma N; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma E; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma;  direccion-pluma E; avanzar 2; direccion-pluma N; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma N; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma E; avanzar 2; direccion-pluma N; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma N; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma N; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma N; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma O; avanzar 2; direccion-pluma N; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma N; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma N; avanzar 2; direccion-pluma O; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma O; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma N; avanzar 2; direccion-pluma O; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma O; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma O; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma O; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma S; avanzar 2; direccion-pluma O; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma O; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma S; avanzar 2; direccion-pluma O; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma S; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma S; avanzar 2; direccion-pluma O; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma S; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma S; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma S; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma S; avanzar 2; direccion-pluma E; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma S; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma S; avanzar 2; direccion-pluma E; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma E; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma E; avanzar 2;
+
+direccion-pluma E; avanzar 2;
+direccion-pluma N; avanzar 2;
+direccion-pluma N; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma E; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma E; avanzar 2;
+
+direccion-pluma N; avanzar 2;
+direccion-pluma O; avanzar 2;
+direccion-pluma O; avanzar 2;
+direccion-pluma O; avanzar 2;
+direccion-pluma O; avanzar 2;
+direccion-pluma O; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma E; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma E; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma E; avanzar 2;
+
+direccion-pluma E; avanzar 2;
+direccion-pluma E; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma E; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma E; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma E; avanzar 2;
+
+direccion-pluma N; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma O; avanzar 6;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma O; avanzar 6;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma O; avanzar 6;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma E; avanzar 8; direccion-pluma N; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma E; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma O; avanzar 8; direccion-pluma S; avanzar 2;
+
+color-pluma R;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma E; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma E; avanzar 10;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma E; avanzar 2;
+
+bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+levantar-pluma; direccion-pluma O; avanzar 16; direccion-pluma N; avanzar 2; 
+
+while not tablero-col Ne do
+{
+	bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+	levantar-pluma; direccion-pluma E; avanzar 2
+};
+
+direccion-pluma E; avanzar 4;
+
+while not tablero-col Ne do
+{
+	bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+	levantar-pluma; direccion-pluma E; avanzar 2
+};
+
+direccion-pluma O; avanzar 20;
+direccion-pluma N; avanzar 2;
+
+while not tablero-col Ne do
+{
+	bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+	levantar-pluma; direccion-pluma E; avanzar 2
+};
+
+direccion-pluma O; avanzar 18;
+direccion-pluma N; avanzar 2;
+
+while not tablero-col Ne do
+{
+	bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+	levantar-pluma; direccion-pluma E; avanzar 2
+};
+
+direccion-pluma O; avanzar 16;
+direccion-pluma N; avanzar 2;
+
+while not tablero-col Ne do
+{
+	bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+	levantar-pluma; direccion-pluma E; avanzar 2
+};
+
+direccion-pluma O; avanzar 12;
+direccion-pluma N; avanzar 2;
+
+while not tablero-col Ne do
+{
+	bajar-pluma; direccion-pluma N; avanzar 1; direccion-pluma E; avanzar 1; direccion-pluma S; avanzar 1; direccion-pluma O; avanzar 1;
+	levantar-pluma; direccion-pluma E; avanzar 2
+}
+
+
+
+
+
+

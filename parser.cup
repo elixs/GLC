@@ -1,0 +1,135 @@
+/*
+   Simple +/-/* expression language; 
+   parser evaluates constant expressions on the fly
+*/
+
+package cup.main;
+
+import java_cup.runtime.*;
+import cup.main.Lexer;
+import java.io.IOException;
+import java.io.File;
+import java.io.FileInputStream;
+import operations.*;
+import expressions.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.InputStreamReader;
+
+parser code {:
+  protected Lexer lexer;
+  private Pen pen;
+  public Pen getPen(){return pen;}
+  public void setPen(Pen pen){this.pen = pen;}
+:}
+
+/* define how to connect to the scanner! */
+init with {:
+  ComplexSymbolFactory f = new ComplexSymbolFactory();
+  symbolFactory = f;
+  final BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+  System.out.println("Input file:");
+  String s = "";
+  File file = null;
+  boolean valid = false;
+  do {
+    try {
+      s = br.readLine();
+      file = new File(s);
+      if ((file.exists() && !file.isDirectory()))
+        valid = true;
+      else
+        System.out.println("Please enter a valid file:");
+    } catch (final IOException e) {
+      e.printStackTrace();
+    }
+
+  } while (!valid);
+
+  FileInputStream fis = null;
+  try {
+    fis = new FileInputStream(file);
+  } catch (final IOException e) {
+    e.printStackTrace();
+  }
+  
+  System.out.println("Speed: (200 recommended)");
+  int speed = 200;
+  valid = false;
+  do {
+    try {
+      s = br.readLine();
+    } catch (final IOException e) {
+      e.printStackTrace();
+    }
+    try {
+      speed = Integer.parseInt(s);
+      if (speed > 0)
+        valid = true;
+      System.out.println("Please enter a positive speed: ");
+    } catch (final NumberFormatException e) {
+      System.out.println("Please enter a valid speed: ");
+    }
+  } while (!valid);
+  pen.setSpeed(speed);
+  lexer = new Lexer(f,fis);
+:};
+scan with {: return lexer.next_token(); :};
+
+/* Terminals (tokens returned by the scanner). */
+terminal Integer    NUMBER;        // our scanner provides numbers as integers
+terminal			SETPENDOWN, SETPENUP, SETPENCOLOR, SETPENDIR, MOVE;
+terminal			IF, THEN, ELSE, WHILE, DO, AND, OR, NOT, SEMI, LKEY, RKEY;
+terminal			ISBOARDCOLOR, EDGE, CHECKPENDIR, CHECKPENCOLOR, ISPENUP, ISPENDOWN;
+terminal String		COLOR, DIRECTION;
+
+/* Non terminals */
+non terminal Operation	op;
+non terminal Expression expr;
+non terminal String		color;
+non terminal String		direction;
+non terminal			S;
+
+
+/* Precedences */
+precedence left OR;
+precedence left AND;
+precedence left NOT;
+precedence left SEMI;
+
+start with S;
+
+/* The grammar rules */
+
+S         ::= op:o		{: o.execute(); pen.print(); 														:}
+			 | error	{: System.out.println("Please correct the error and try again."); System.exit(1);	:}
+			 ;	
+
+op		  ::= SETPENDOWN											{: RESULT = new SetPenDown(pen); 		:}
+			 | SETPENUP												{: RESULT = new SetPenUp(pen); 			:}
+			 | SETPENCOLOR color:c									{: RESULT = new SetPenColor(pen, c); 	:}
+			 | SETPENDIR direction:d								{: RESULT = new SetPenDir(pen, d);		:}
+			 | MOVE NUMBER:n										{: RESULT = new Move(pen, n); 			:}
+			 | IF expr:e THEN LKEY op:o	RKEY						{: RESULT = new IfThen(e, o);			:}
+			 | IF expr:e THEN LKEY op:o1 RKEY ELSE LKEY op:o2 RKEY	{: RESULT = new IfThenElse(e, o1, o2);	:}
+			 | WHILE expr:e DO LKEY op:o RKEY 						{: RESULT = new WhileDo(e, o);			:}
+			 | op:o1 SEMI op:o2 									{: RESULT = new Join(o1,o2);			:}
+			 ;
+            
+expr      ::= ISBOARDCOLOR color:c 			{: RESULT = new IsBoardColor(pen, c);	:}
+			 | EDGE 						{: RESULT = new Edge(pen);				:}
+			 | CHECKPENDIR 	DIRECTION:d		{: RESULT = new CheckPenDir(pen, d);	:}
+			 | CHECKPENCOLOR COLOR:c 		{: RESULT = new CheckPenColor(pen, c);	:}
+			 | ISPENUP 						{: RESULT = new IsPenUp(pen);			:}
+			 | ISPENDOWN 					{: RESULT = new IsPenDown(pen);			:}
+			 | expr:e1 AND expr:e2 			{: RESULT = new And(e1, e2);			:}
+			 | expr:e1 OR expr:e2 			{: RESULT = new Or(e1, e2);				:}
+			 | NOT expr:e 					{: RESULT = new Not(e);					:}
+			 ;
+			 
+color     ::= COLOR:c 						{: RESULT = c; :}
+			;
+
+direction ::=  DIRECTION:d  				{: RESULT = d; :}
+			;
+			
