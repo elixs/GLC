@@ -70,7 +70,7 @@ public class Pen {
     }
     x += xdir;
     y += ydir;
-    if (x > 49 || y > 49) {
+    if (x > 49 || y > 49 || x < 0 || y < 0) {
       System.err.println("Edge error: You trespassed a border.");
       System.exit(1);
     }

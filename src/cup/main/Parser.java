@@ -204,7 +204,9 @@ public class Parser extends java_cup.runtime.lr_parser {
       speed = Integer.parseInt(s);
       if (speed > 0)
         valid = true;
-      System.out.println("Please enter a positive speed: ");
+      else{	 		
+      	System.out.println("Please enter a positive speed: ");
+      }
     } catch (final NumberFormatException e) {
       System.out.println("Please enter a valid speed: ");
     }
